@@ -24,7 +24,21 @@ print(message)
 
 # TERNARY OPERATOR WITH LOGICAL OPERATOR
 
-isWeekend = False
+isWeekend = True
 isHoliday = False
 activity = "Relax" if (("Sleep" if isWeekend else "Work")== "Sleep" or isHoliday) else "Run"
 print(activity)
+
+"""
+lets decode this ternary operator with logical operator
+
+Step1: if weekend = True then "sleep" else "Work"    result = "Sleep"
+
+step2: "Sleep" == "Sleep" or isHoliday
+        True or False     result = True
+        
+step3: "Relax" if True else "Run
+
+Final Result = "Relax"
+
+"""
