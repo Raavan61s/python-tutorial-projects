@@ -31,3 +31,33 @@ for i in range(len(girlfriends)):
 
 for m,girlfriend in enumerate(girlfriends):
     print(m,girlfriend)
+
+# WHILE LOOP in python
+
+# Simple example
+
+j=0
+
+while j <= 5:
+    print(j)
+    j+=1
+
+# Break statement with the implementation of infinite loop
+print("# Break statement with the implementation of infinite loop")
+i1=0
+
+while True:
+    print(i1)
+    i1+=1
+    if i1 == 7:
+        break
+
+# Continue statement with while loop
+print("# Continue statement with while loop")
+q=0
+while q<10:
+
+    q=q+1
+    if q ==2:
+        continue
+    print(q)
