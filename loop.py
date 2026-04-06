@@ -61,3 +61,42 @@ while q<10:
     if q ==2:
         continue
     print(q)
+
+# NESTED WHILE LOOP
+l = "* "
+mm=1
+nn=1
+while mm<3:
+    mm+=1
+    nn=1
+    while nn<8:
+
+        print(l*nn)
+        nn += 1
+
+
+
+# COMPLEX WHILE LOOP
+'''
+z = " "
+f =  "*"
+g=1
+h=5
+
+while g <=h:
+    print(z*(h-g)+(f*g))
+    g+=1
+ '''
+# SUPERCOMPLEX WHILE LOOP
+
+z = " "
+f =  "*"
+g=1
+h=5
+ppt=0
+while ppt < 2:
+    while g <=h:
+        print(z*(h-g)+(f*g)+f*(g-1))
+        g+=1
+    g=1
+    ppt+=1
