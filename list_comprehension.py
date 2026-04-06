@@ -18,3 +18,16 @@ print(even_numbers)
 # Complex Expressions
 formatted = [f"Number : {x}" for x in numbers]
 print(formatted)
+
+
+# if-else inside list comprehension
+
+labels =["even" if xx % 2 == 0 else "odd" for xx in range(10)]
+print(labels)
+
+
+# Nested List Comprehension
+
+matrix =[["shiwani","Anjali"],["Sunny","Sanil"],["Sumitra","Ratna"]]
+flatten = [names for row in matrix for names in row]
+print(flatten)
