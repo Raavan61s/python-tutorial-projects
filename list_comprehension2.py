@@ -47,5 +47,15 @@ for p in [2,3,4]:
 print(relist8)
 
 # Real Data Cleaning examples
+names=["SANNY"," ","SHIWANI","ANJALI","POONAM"," ","DIKSHYA"]
 
+relist10=[x.lower() for x in names if x is not None]
+print(relist10)
 
+# List comprehension using function
+
+def product(xx):
+    return xx * 10
+
+relist11 =[product(xx) for xx in range(6)]
+print(relist11)
